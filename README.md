@@ -4,12 +4,15 @@
 
 **One safety briefing, every worker's language, with proof that each worker understood it.**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-site--sabha.streamlit.app-FF4B4B?logo=streamlit&logoColor=white)](https://site-sabha.streamlit.app/)
+[![Web app](https://img.shields.io/badge/Web%20app-site--sabha.vercel.app-000000?logo=vercel&logoColor=white)](https://site-sabha.vercel.app/)
+[![Streamlit demo](https://img.shields.io/badge/Streamlit-site--sabha.streamlit.app-FF4B4B?logo=streamlit&logoColor=white)](https://site-sabha.streamlit.app/)
 [![Built on Sarvam AI](https://img.shields.io/badge/Built%20on-Sarvam%20AI-1A1A1A)](https://www.sarvam.ai/)
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.64-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 
-### 🔗 [site-sabha.streamlit.app](https://site-sabha.streamlit.app/)
+### 🔗 [site-sabha.vercel.app](https://site-sabha.vercel.app/) · [Streamlit version](https://site-sabha.streamlit.app/)
+
+🥈 **2nd place** at *Sarvam is coming to SRMIST*
 
 </div>
 
@@ -92,13 +95,14 @@ flowchart TD
 |---|---|
 | AI models | Sarvam AI: Saaras, Sarvam Vision, Sarvam-105B, Mayura, Bulbul |
 | SDK | [`sarvamai`](https://pypi.org/project/sarvamai/) Python SDK |
-| Frontend | [Streamlit](https://streamlit.io/): multipage navigation, `st.audio_input` for in-browser mic recording, auto-refreshing fragments for the live dashboard |
+| Web app | [Next.js 16](https://nextjs.org/) (App Router, TypeScript, Tailwind CSS v4) in [`web/`](web/): browser-side audio decoding and chunking with the Web Audio API, API routes for each pipeline step |
+| Prototype | [Streamlit](https://streamlit.io/): multipage navigation, `st.audio_input` for in-browser mic recording, auto-refreshing fragments for the live dashboard |
 | Backend | Python 3.11 |
-| Storage | SQLite (briefings and worker acknowledgements) · CSV roster · JSON glossary |
+| Storage | Vercel Blob (web app) · SQLite (Streamlit) · JSON glossary and roster |
 | Audio processing | ffmpeg / ffprobe (normalising, chunking, noise mixing) · Python `wave` (joining TTS clips) |
 | Data handling | pandas (dashboard tables) · Pillow (sample permit generation) · requests (Vision result download) |
 | Config | python-dotenv locally · Streamlit secrets in the cloud |
-| Hosting | [Streamlit Community Cloud](https://streamlit.io/cloud) |
+| Hosting | [Vercel](https://vercel.com/) (web app) · [Streamlit Community Cloud](https://streamlit.io/cloud) (prototype) |
 
 ---
 
@@ -126,6 +130,7 @@ flowchart TD
 
 ```
 site-sabha/
+├── web/                    # Next.js web app (Vercel): Brief, Worker, Tag board + API routes
 ├── app.py                  # Streamlit app: Supervisor, Worker and Dashboard pages
 ├── pipeline/
 │   ├── client.py           # Sarvam client, disk cache, demo mode
@@ -149,6 +154,7 @@ site-sabha/
 │   └── cache/              # Cached Sarvam responses for demo mode
 ├── scripts/
 │   ├── make_assets.py      # Generates the sample permit, briefing and answers
+│   ├── export_demo.py      # Exports cached results as demo fixtures for web/
 │   ├── probe_api.py        # One live call per Sarvam product
 │   └── smoke.py            # Headless end-to-end test
 ├── packages.txt            # System packages for Streamlit Cloud (ffmpeg)
@@ -186,6 +192,10 @@ python scripts/smoke.py         # end-to-end test; also warms the demo cache
 
 The smoke test checks that the briefing is transcribed and structured, the fire-extinguisher gap is flagged, audio is produced for every roster language, and the three sample answers are graded *understood*, *partial* and *not understood*.
 
+### Web app (Next.js on Vercel)
+
+See [web/README.md](web/README.md). Set `SARVAM_API_KEY` on the Vercel project and connect a Vercel Blob store.
+
 ### Deploying to Streamlit Community Cloud
 
 1. Fork this repo and create a new app with main file `app.py` and Python 3.11.
@@ -216,6 +226,6 @@ The smoke test checks that the briefing is transcribed and structured, the fire-
 
 ## Acknowledgements
 
-Built at **Sarvam is coming to SRMIST** (26 September 2026, SRMIST Chennai), hosted by **FOSS Club SRM-KTR** and **IEEE Computer Society SRM** with the **[Sarvam AI](https://www.sarvam.ai/)** team.
+🥈 Won **2nd place** at **Sarvam is coming to SRMIST** (26 September 2026, SRMIST Chennai), hosted by **FOSS Club SRM-KTR** and **IEEE Computer Society SRM** with the **[Sarvam AI](https://www.sarvam.ai/)** team.
 
 Full product spec: [SITE_SABHA.md](SITE_SABHA.md)

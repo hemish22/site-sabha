@@ -1,0 +1,310 @@
+{
+ "id": "demo",
+ "createdAt": "",
+ "transcript": "सुप्रभात सब लोग। आज block C level 3 पर काम है। shuttering crew आज level 3 slab का formwork करेगी। scaffold पर काम करते समय full body harness पहनना है और harness हर समय lifeline से clip रहना चाहिए। scaffold का tag green होना चाहिए। red tag वाले scaffold पर मत चढ़ना। आज welding crew। Scaffolding के पास welding करेगी। ध्यान रखना, crane से panel उठेंगे। Suspेंडेड load के नीचे कोई खड़ा नहीं होगा। DB 3 पर lockout है। Electrician के अलावा कोई lock नहीं खोलेगा। Helmet, safety shoes, gloves सबको पहनने हैं। कोई emergency हो तो main gate पर assembly point पर मिलना और safety officer Mehta जी को बुलाना। ठीक है? चलो काम शुरू करो।",
+ "permitText": "## PERMIT TO WORK\n\nShree Infra Projects Pvt Ltd · Construction Safety\n\nPermit No.: PTW-2026-0926-C3\n\nDate: 26 Sep 2026 Shift: 07:00 - 17:00\n\nSite / Location: Block C, Level 3 slab\n\nIssued to: Shuttering crew + Welding crew (contractor: Shree Infra)\n\nIssued by: R. Mehta, Site Safety Officer\n\n## HAZARDS AND REQUIRED CONTROLS\n\n## 1. Work at height\n\nScaffold on Level 3 edge. Full-body harness clipped to lifeline at all times. Scaffold tag must be green. [x] Checked\n\n## 2. Hot work\n\nWelding near scaffold, Level 3. Fire extinguisher (CO2 / DCP) within 5 m.\n\nWelding near scaffold, Level 3. Fire extinguisher (SCB) Fire watch for 30 min after work. Remove combustibles. [x] Checked\n\n## 3. Electrical isolation\n\nElectrical Isolation\nLockout-tagout on DB-3 before cable pulling. Only licensed electrician to remove lock. [x] Checked\n\n. Lifting\nTower crane lift of formwork panels. No one under suspended load. Tag lines used. [x] Checked\n\n## PPE REQUIRED\n\nHelmet, safety shoes, full-body harness, gloves, welding face shield, reflective vest\n\n## EMERGENCY\n\nAssembly point: Main gate. Emergency: Site safety officer 98xxxxxx10. First aid: Site office.\n\nIssuer signature: ___R. Mehta___\n\nReceiver signature: ____S. Yadav____",
+ "briefing": {
+  "site": "Block C Level 3",
+  "hazards": [
+   {
+    "item": "Falling from height",
+    "control": "Wear full body harness clipped to lifeline",
+    "source": "briefing"
+   },
+   {
+    "item": "Unsafe scaffold",
+    "control": "Only use green tag scaffold",
+    "source": "briefing"
+   },
+   {
+    "item": "Hot work fire",
+    "control": "Use fire extinguisher and fire watch",
+    "source": "permit"
+   },
+   {
+    "item": "Electrical shock",
+    "control": "Only electrician removes lockout",
+    "source": "briefing"
+   },
+   {
+    "item": "Falling objects",
+    "control": "No one under suspended load",
+    "source": "briefing"
+   },
+   {
+    "item": "Lifting hazard",
+    "control": "No one under suspended load",
+    "source": "permit"
+   }
+  ],
+  "ppe": [
+   "Helmet",
+   "safety shoes",
+   "gloves",
+   "full-body harness",
+   "welding face shield",
+   "reflective vest"
+  ],
+  "tasks": [
+   {
+    "crew": "Shuttering crew",
+    "task": "Formwork for slab"
+   },
+   {
+    "crew": "Welding crew",
+    "task": "Welding near scaffold"
+   },
+   {
+    "crew": "Crane operator",
+    "task": "Lift formwork panels"
+   }
+  ],
+  "emergency": {
+   "assembly_point": "Main gate",
+   "contact": "Site safety officer Mehta 98xxxxxx10"
+  },
+  "quiz": [
+   {
+    "q": "What must workers wear while working on the scaffold?",
+    "expected_answer": "A full body harness clipped to the lifeline at all times."
+   },
+   {
+    "q": "Who is allowed to remove the lockout on DB-3?",
+    "expected_answer": "Only the electrician is allowed to remove the lock."
+   }
+  ],
+  "date": "2026-09-26"
+ },
+ "gaps": [
+  {
+   "missing": "Fire extinguisher (CO2 / DCP) within 5 m",
+   "permit_line": "Fire extinguisher (CO2 / DCP) within 5 m.",
+   "severity": "high"
+  },
+  {
+   "missing": "Fire watch for 30 min after work",
+   "permit_line": "Fire watch for 30 min after work.",
+   "severity": "high"
+  },
+  {
+   "missing": "Remove combustibles",
+   "permit_line": "Remove combustibles.",
+   "severity": "high"
+  },
+  {
+   "missing": "Tag lines used",
+   "permit_line": "Tag lines used.",
+   "severity": "med"
+  },
+  {
+   "missing": "Welding face shield",
+   "permit_line": "Welding face shield",
+   "severity": "med"
+  },
+  {
+   "missing": "Reflective vest",
+   "permit_line": "Reflective vest",
+   "severity": "med"
+  },
+  {
+   "missing": "First aid: Site office",
+   "permit_line": "Assembly point: Main gate. Emergency: Site safety officer 98xxxxxx10. First aid: Site office.",
+   "severity": "low"
+  }
+ ],
+ "localised": {
+  "bn-IN": {
+   "lang": "bn-IN",
+   "lines": [
+    "Block C Level 3-এর জন্য safety briefing.",
+    "Danger: উচ্চ থেকে পড়ে যাওয়া। Lifeline-এ clip করা full body harness পরুন।",
+    "DANGER: Unsafe scaffold. শুধু green tag scaffold use করুন।",
+    "DANGER: Hot work fire. Fire extinguisher আর fire watch use করুন।",
+    "DANGER: ELECTRICAL SHock. শুধু electrician-ই lockout remove করতে পারে।",
+    "Danger: মাটিতে পড়তে পারে এমন জিনিস। Suspended load-এর তলায় কেউ নেই।",
+    "Danger: Lifting hazard. Suspended load-এর তলায় কেউ নেই।",
+    "এই PPE-গুলো পরুন: Helmet, safety shoes, gloves, full-body harness, welding face shield, reflective vest.",
+    "Shuttering crew: Slab-এর জন্য formwork।",
+    "Welding crew: Scaffold-এর কাছে welding করছেন।",
+    "Crane operator crew: Lift formwork panel-গুলো lift করুন।",
+    "Emergency-তে, assembly point: Main gate-এ চলে যান।",
+    "Emergency contact: Site safety officer Mehta 98xxxxxx10."
+   ],
+   "scriptEn": [
+    "Safety briefing for Block C Level 3.",
+    "Danger: Falling from height. Wear full body harness clipped to lifeline.",
+    "Danger: Unsafe scaffold. Only use green tag scaffold.",
+    "Danger: Hot work fire. Use fire extinguisher and fire watch.",
+    "Danger: Electrical shock. Only electrician removes lockout.",
+    "Danger: Falling objects. No one under suspended load.",
+    "Danger: Lifting hazard. No one under suspended load.",
+    "Wear this PPE: Helmet, safety shoes, gloves, full-body harness, welding face shield, reflective vest.",
+    "Shuttering crew crew: Formwork for slab.",
+    "Welding crew crew: Welding near scaffold.",
+    "Crane operator crew: Lift formwork panels.",
+    "In an emergency, go to the assembly point: Main gate.",
+    "Emergency contact: Site safety officer Mehta 98xxxxxx10."
+   ],
+   "audioUrl": "/demo/audio/bn-IN.mp3",
+   "quiz": [
+    {
+     "q": "What must workers wear while working on the scaffold?",
+     "expected_answer": "A full body harness clipped to the lifeline at all times.",
+     "q_local": "Scaffold-এ কাজ করার সময় worker-দের কী কী wear করতে হয়?",
+     "audioUrl": "/demo/audio/bn-IN_q0.mp3"
+    },
+    {
+     "q": "Who is allowed to remove the lockout on DB-3?",
+     "expected_answer": "Only the electrician is allowed to remove the lock.",
+     "q_local": "DB-3-এর lockout কে remove করতে পারে?",
+     "audioUrl": "/demo/audio/bn-IN_q1.mp3"
+    }
+   ]
+  },
+  "hi-IN": {
+   "lang": "hi-IN",
+   "lines": [
+    "Block C Level 3 के लिए safety briefing.",
+    "Danger: ऊपर से गिरना। Lifeline से clipped full body harness पहनें।",
+    "Danger: Unsafe scaffold है। सिर्फ़ green tag scaffold use कीजिए।",
+    "DANGER: Hot work fire. Fire extinguisher और fire watch use कीजिए।",
+    "DANGER: ELECTRICAL SHock. सिर्फ़ electrician ही lockout remove करते हैं।",
+    "Danger: गिरती हुई objects. Suspended load के नीचे कोई नहीं है।",
+    "Danger: Lifting hazard है। Suspended load के नीचे कोई नहीं है।",
+    "यह PPE पहनिए: Helmet, safety shoes, gloves, full-body harness, welding face shield, reflective vest.",
+    "Shuttering crew: Slab के लिए formwork.",
+    "Welding crew crew: Scaffold के पास welding कर रहे हैं।",
+    "Crane operator crew: Lift formwork panels lift करो।",
+    "Emergency में, assembly point: Main gate जाइए।",
+    "Emergency contact: Site safety officer Mehta 98xxxxxx10."
+   ],
+   "scriptEn": [
+    "Safety briefing for Block C Level 3.",
+    "Danger: Falling from height. Wear full body harness clipped to lifeline.",
+    "Danger: Unsafe scaffold. Only use green tag scaffold.",
+    "Danger: Hot work fire. Use fire extinguisher and fire watch.",
+    "Danger: Electrical shock. Only electrician removes lockout.",
+    "Danger: Falling objects. No one under suspended load.",
+    "Danger: Lifting hazard. No one under suspended load.",
+    "Wear this PPE: Helmet, safety shoes, gloves, full-body harness, welding face shield, reflective vest.",
+    "Shuttering crew crew: Formwork for slab.",
+    "Welding crew crew: Welding near scaffold.",
+    "Crane operator crew: Lift formwork panels.",
+    "In an emergency, go to the assembly point: Main gate.",
+    "Emergency contact: Site safety officer Mehta 98xxxxxx10."
+   ],
+   "audioUrl": "/demo/audio/hi-IN.mp3",
+   "quiz": [
+    {
+     "q": "What must workers wear while working on the scaffold?",
+     "expected_answer": "A full body harness clipped to the lifeline at all times.",
+     "q_local": "Scaffold पर काम करते time workers को क्या पहनना चाहिए?",
+     "audioUrl": "/demo/audio/hi-IN_q0.mp3"
+    },
+    {
+     "q": "Who is allowed to remove the lockout on DB-3?",
+     "expected_answer": "Only the electrician is allowed to remove the lock.",
+     "q_local": "DB-3 पर lockout कौन remove कर सकता है?",
+     "audioUrl": "/demo/audio/hi-IN_q1.mp3"
+    }
+   ]
+  },
+  "od-IN": {
+   "lang": "od-IN",
+   "lines": [
+    "Block C Level 3 ପାଇଁ safety briefing।",
+    "DANGER: ଉଚ୍ଚତାରୁ ପଡ଼ିଯିବା। Lifeline-ରେ clip ହୋଇଥିବା full body harness ପିନ୍ଧନ୍ତୁ।",
+    "DANGER: Unsafe scaffold। କେବଳ green tag scaffold use କରନ୍ତୁ।",
+    "DANGER: Hot work fire। Fire extinguisher ଏବଂ fire watch use କରନ୍ତୁ।",
+    "DANGER: Electrical shock। କେବଳ Electrician lockout remove କରନ୍ତି।",
+    "DANGER: ତଳେ ପଡୁଥିବା ଜିନିଷ। Suspended load ତଳେ କେହି ନାହାନ୍ତି।",
+    "DANGER: Lifting hazard। Suspended load ତଳେ କେହି ନାହାନ୍ତି।",
+    "ଏହି PPE ପିନ୍ଧନ୍ତୁ: Helmet, safety shoes, gloves, full-body harness, welding face shield, reflective vest।",
+    "Shuttering crew: Slab ପାଇଁ formwork।",
+    "Welding crew: Scaffold ପାଖରେ welding।",
+    "Crane operator crew: Lift formwork panel-ଗୁଡ଼ିକ ଉଠାନ୍ତୁ।",
+    "Emergency-ରେ, assembly point: Main gate-କୁ ଯାଆନ୍ତୁ।",
+    "Emergency contact: Site safety officer Mehta 98xxxxxx10।"
+   ],
+   "scriptEn": [
+    "Safety briefing for Block C Level 3.",
+    "Danger: Falling from height. Wear full body harness clipped to lifeline.",
+    "Danger: Unsafe scaffold. Only use green tag scaffold.",
+    "Danger: Hot work fire. Use fire extinguisher and fire watch.",
+    "Danger: Electrical shock. Only electrician removes lockout.",
+    "Danger: Falling objects. No one under suspended load.",
+    "Danger: Lifting hazard. No one under suspended load.",
+    "Wear this PPE: Helmet, safety shoes, gloves, full-body harness, welding face shield, reflective vest.",
+    "Shuttering crew crew: Formwork for slab.",
+    "Welding crew crew: Welding near scaffold.",
+    "Crane operator crew: Lift formwork panels.",
+    "In an emergency, go to the assembly point: Main gate.",
+    "Emergency contact: Site safety officer Mehta 98xxxxxx10."
+   ],
+   "audioUrl": "/demo/audio/od-IN.mp3",
+   "quiz": [
+    {
+     "q": "What must workers wear while working on the scaffold?",
+     "expected_answer": "A full body harness clipped to the lifeline at all times.",
+     "q_local": "Scaffold-ରେ କାମ କରିବା ସମୟରେ worker-ମାନେ କଣ ପିନ୍ଧିବା ଉଚିତ?",
+     "audioUrl": "/demo/audio/od-IN_q0.mp3"
+    },
+    {
+     "q": "Who is allowed to remove the lockout on DB-3?",
+     "expected_answer": "Only the electrician is allowed to remove the lock.",
+     "q_local": "DB-3-ର lockout କିଏ remove କରିପାରିବେ?",
+     "audioUrl": "/demo/audio/od-IN_q1.mp3"
+    }
+   ]
+  },
+  "ta-IN": {
+   "lang": "ta-IN",
+   "lines": [
+    "Block C Level 3-க்கான safety briefing.",
+    "Danger: உயரம்ல இருந்து விழறது. Lifeline-ல clip பண்ணி full body harness போட்டுக்கோங்க.",
+    "Danger: Unsafe scaffold-ஆ இருக்கு. Green tag scaffold மட்டும் தான் use பண்ணனும்.",
+    "DANGER: Hot work fire. Fire extinguisher-அயும் fire watch-அயும் use பண்ணுங்க.",
+    "DANGER: Electrical shock. Lockout-அ electrician மட்டும் தான் remove பண்ணுவாங்க.",
+    "Danger: விழுந்த objects. Suspended load-ல இருக்கறவங்க யாரும் இல்ல.",
+    "Danger: Lifting hazard-ன்னு warning இருக்கு. Suspended load-ல யாரும் இல்ல.",
+    "இந்த PPE-அ wear பண்ணுங்க: Helmet, safety shoes, gloves, full-body harness, welding face shield, reflective vest.",
+    "Shuttering crew: Slab-க்கான formwork.",
+    "Welding crew: Scaffold பக்கத்துல welding பண்றாங்க.",
+    "Crane operator crew: Lift formwork panels-அ lift பண்ணனும்.",
+    "Emergency-ல, main gate-ல இருக்கற assembly point-க்குப் போங்க.",
+    "Emergency contact: Site safety officer Mehta 98xxxxxx10."
+   ],
+   "scriptEn": [
+    "Safety briefing for Block C Level 3.",
+    "Danger: Falling from height. Wear full body harness clipped to lifeline.",
+    "Danger: Unsafe scaffold. Only use green tag scaffold.",
+    "Danger: Hot work fire. Use fire extinguisher and fire watch.",
+    "Danger: Electrical shock. Only electrician removes lockout.",
+    "Danger: Falling objects. No one under suspended load.",
+    "Danger: Lifting hazard. No one under suspended load.",
+    "Wear this PPE: Helmet, safety shoes, gloves, full-body harness, welding face shield, reflective vest.",
+    "Shuttering crew crew: Formwork for slab.",
+    "Welding crew crew: Welding near scaffold.",
+    "Crane operator crew: Lift formwork panels.",
+    "In an emergency, go to the assembly point: Main gate.",
+    "Emergency contact: Site safety officer Mehta 98xxxxxx10."
+   ],
+   "audioUrl": "/demo/audio/ta-IN.mp3",
+   "quiz": [
+    {
+     "q": "What must workers wear while working on the scaffold?",
+     "expected_answer": "A full body harness clipped to the lifeline at all times.",
+     "q_local": "Scaffold-ல work பண்றப்போ workers என்ன wear பண்ணனும்?",
+     "audioUrl": "/demo/audio/ta-IN_q0.mp3"
+    },
+    {
+     "q": "Who is allowed to remove the lockout on DB-3?",
+     "expected_answer": "Only the electrician is allowed to remove the lock.",
+     "q_local": "DB-3-ல lockout remove பண்ண யாருக்கு permission இருக்கு?",
+     "audioUrl": "/demo/audio/ta-IN_q1.mp3"
+    }
+   ]
+  }
+ },
+ "demo": true
+}

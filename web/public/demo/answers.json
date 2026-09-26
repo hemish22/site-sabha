@@ -1,0 +1,17 @@
+{
+ "ta_correct": {
+  "transcript": "நாங்க ஸ்காஃபோல்டில் வேலை செய்யும்போது லைஃப்லைனில் ஹார்னஸை கிளிப் செய்து கொள்ள வேண்டும்.",
+  "verdict": "understood",
+  "reason": "The worker accurately stated that the harness must be clipped to the lifeline while working on the scaffold."
+ },
+ "bn_vague": {
+  "transcript": "হ্যাঁ, আমার মনে হয় আমাদের হার্নেসটা পরা উচিত।",
+  "verdict": "partial",
+  "reason": "The worker mentioned wearing a harness but missed the critical requirement of clipping it to a lifeline at all times."
+ },
+ "od_wrong": {
+  "transcript": "ମୁଁ ଜାଣିନି ମେ ବି ଲଞ୍ଚ ପରେ।",
+  "verdict": "not_understood",
+  "reason": "The worker stated they do not know and suggested possibly after lunch, which completely misses the required safety equipment."
+ }
+}
