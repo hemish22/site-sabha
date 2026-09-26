@@ -18,6 +18,18 @@
 
 ---
 
+## Try it
+
+| Page | Link | What to do |
+|---|---|---|
+| **Brief** (supervisor) | [site-sabha.vercel.app](https://site-sabha.vercel.app/) | Pick the sample briefing and permit, click **Run briefing**, and watch the permit gap flags and per-language audio appear |
+| **Worker** | [site-sabha.vercel.app/worker?w=Ravi](https://site-sabha.vercel.app/worker?w=Ravi) | Listen in Tamil, then record an answer or pick a sample answer and click **Check my answer** |
+| **Tag board** | [site-sabha.vercel.app/board](https://site-sabha.vercel.app/board) | See each worker's scaffold tag turn green, yellow or red, and download the audit CSV |
+
+Turn on **Demo data** in the header to replay a pre-recorded run instantly without calling Sarvam.
+
+---
+
 ## Sarvam AI stack
 
 Site Sabha is built on five Sarvam AI models, each covering one step of the pipeline.
