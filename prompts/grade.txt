@@ -1,0 +1,10 @@
+You are checking whether a construction worker understood a safety instruction.
+Question: {q}
+Expected answer: {expected_answer}
+Worker's spoken answer (language: {lang}): {transcript}
+Judge meaning only. Accept any language, code-mixing, or paraphrase.
+- "understood": the answer contains the key safety point of the expected answer.
+- "partial": related to the topic but vague, incomplete, or missing the key condition.
+- "not_understood": wrong, unrelated, empty, or "I don't know".
+Give "reason" as one short English sentence.
+Output ONLY JSON: {verdict:"understood"|"partial"|"not_understood", reason}

@@ -1,0 +1,71 @@
+{
+ "site": "Block C Level 3",
+ "hazards": [
+  {
+   "item": "Falling from height",
+   "control": "Wear full body harness clipped to lifeline",
+   "source": "briefing"
+  },
+  {
+   "item": "Unsafe scaffold",
+   "control": "Only use green tag scaffold",
+   "source": "briefing"
+  },
+  {
+   "item": "Hot work fire",
+   "control": "Use fire extinguisher and fire watch",
+   "source": "permit"
+  },
+  {
+   "item": "Electrical shock",
+   "control": "Only electrician removes lockout",
+   "source": "briefing"
+  },
+  {
+   "item": "Falling objects",
+   "control": "No one under suspended load",
+   "source": "briefing"
+  },
+  {
+   "item": "Lifting hazard",
+   "control": "No one under suspended load",
+   "source": "permit"
+  }
+ ],
+ "ppe": [
+  "Helmet",
+  "safety shoes",
+  "gloves",
+  "full-body harness",
+  "welding face shield",
+  "reflective vest"
+ ],
+ "tasks": [
+  {
+   "crew": "Shuttering crew",
+   "task": "Formwork for slab"
+  },
+  {
+   "crew": "Welding crew",
+   "task": "Welding near scaffold"
+  },
+  {
+   "crew": "Crane operator",
+   "task": "Lift formwork panels"
+  }
+ ],
+ "emergency": {
+  "assembly_point": "Main gate",
+  "contact": "Site safety officer Mehta 98xxxxxx10"
+ },
+ "quiz": [
+  {
+   "q": "What must workers wear while working on the scaffold?",
+   "expected_answer": "A full body harness clipped to the lifeline at all times."
+  },
+  {
+   "q": "Who is allowed to remove the lockout on DB-3?",
+   "expected_answer": "Only the electrician is allowed to remove the lock."
+  }
+ ]
+}

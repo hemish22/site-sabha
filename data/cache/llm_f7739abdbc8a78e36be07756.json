@@ -1,0 +1,29 @@
+{
+ "gaps": [
+  {
+   "missing": "Fire extinguisher (CO2 / DCP) within 5 m.",
+   "permit_line": "Fire extinguisher (CO2 / DCP) within 5 m.",
+   "severity": "high"
+  },
+  {
+   "missing": "Fire extinguisher (SCB)",
+   "permit_line": "Fire extinguisher (SCB)",
+   "severity": "high"
+  },
+  {
+   "missing": "Fire watch for 30 min after work.",
+   "permit_line": "Fire watch for 30 min after work.",
+   "severity": "high"
+  },
+  {
+   "missing": "Remove combustibles.",
+   "permit_line": "Remove combustibles.",
+   "severity": "high"
+  },
+  {
+   "missing": "Tag lines used.",
+   "permit_line": "Tag lines used.",
+   "severity": "high"
+  }
+ ]
+}
